@@ -89,7 +89,7 @@ INTRO
             rgba(255, 255, 255, 0.1),
             rgba(255, 255, 255, 0.1)
         ),
-        url('../Images/background01.jpg') no-repeat center center;
+        url('/Images/background01.jpg') no-repeat center center;
 }
 #highlight {
     color: #FFF;
@@ -139,7 +139,7 @@ CURSOS
     padding-top: 50px;
     margin-top: 25px;
     height: 600px;
-    background: url('../Images/background03.png') no-repeat center center;
+    background: url('/Images/background03.png') no-repeat center center;
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
@@ -229,7 +229,7 @@ TESTIMONIOS
             rgba(255, 255, 255, 0.5),
             rgba(255, 255, 255, 0.5)
         ),
-        url('../Images/background04.jpg') 50% 0 fixed;
+        url('/Images/background04.jpg') 50% 0 fixed;
     
     height: auto;  
     margin: 0 auto; 
