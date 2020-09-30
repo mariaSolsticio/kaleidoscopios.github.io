@@ -1,0 +1,43 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    #nav {display: none;}
+    .dropdown {visibility: visible;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    #galeria {margin-top: 125px;}
+    #form {margin-top: 0em;}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    #highlight {line-height: 1.5;}
+    #acerca p {margin-right: 0%;}
+    #galeria {margin-top: 125px;}
+    #contacto p {font-size: 13px;}
+    #form {margin-left: 1%; margin-right: 1%}
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .logo {margin-left: 1%; width: 250px;}
+    .dropdown {top: 0.8em;}
+    #highlight {line-height: 1;}
+    .icon {height: 75px;}
+    .ocultar {display: none;}
+    #acerca { padding-bottom: 0px;}
+    #acerca p {text-align: center}
+
+    #owl-course .item{width: 400px;}
+    #galeria {margin-top: 150px;}
+    #contacto p {font-size: 12px;}
+    #mail-opt-1 {display: none;}
+    #mail-opt-2 {visibility: visible;}
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+}

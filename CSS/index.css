@@ -1,0 +1,296 @@
+/* ==========================================================================
+GENERAL
+========================================================================== */
+html {
+    font-family: 'Roboto', sans-serif !important;
+}
+.break {
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+.icon {
+    height: 100px;
+}
+.icon-small {
+    height: 70px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/* ==========================================================================
+NAVBAR
+========================================================================== */
+.navbar-default {
+    background: RGBA(245, 245, 245, 0.95);
+}
+.logo {
+    float: left;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+    width: 300px;
+}
+#nav {
+    overflow: hidden;
+}
+#nav ul {
+    float: right;
+    margin-top: 2.25em;
+    margin-right: 2.5em;
+}
+#nav li {
+    display: inline-block;
+    margin-left: 1.30em;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1.5px;
+}
+#nav li a {
+    color: #000000;
+}
+#nav li a:hover {
+    text-decoration: none;
+    color: #DC4B25;
+}
+.fa-facebook {
+    font-size: 20px !important;
+    color: #8B9DC3 !important;
+}
+.btn-default {
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    letter-spacing: 1.5px !important;
+    background-color: transparent !important;
+    padding: 10px 20px;
+}
+.dropdown {
+    position: absolute;
+    top: 1.2em;
+    right: 2%;
+    visibility: hidden;
+}
+.dropdown-menu li {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+    color: #DC4B25;
+    background-color: transparent;
+    font-weight: 300;
+}
+/* ==========================================================================
+INTRO
+========================================================================== */
+#intro {
+    padding-top: 12em;
+    padding-left: 10%;
+    height: 475px;    
+    background: 
+        linear-gradient(
+            rgba(255, 255, 255, 0.1),
+            rgba(255, 255, 255, 0.1)
+        ),
+        url('../Images/background01.jpg') no-repeat center center;
+}
+#highlight {
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+/* ==========================================================================
+QUIENES SOMOS
+========================================================================== */
+#acerca {
+    margin-top: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: rgba(250,250,250,1);
+}
+#acerca p {
+    padding: 5px 25px;
+    margin-right: 10%;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-align: justify;
+    line-height: 25px;
+}
+#robot {
+    width: 250px;
+}
+
+/* ==========================================================================
+BENEFICIOS
+========================================================================== */
+#beneficios {
+    margin-top: 0px;
+    padding-top: 25px;
+}
+/* ==========================================================================
+CURSOS
+========================================================================== */
+#owl-course .item{
+    display: inline-block;
+    width: 500px;
+    padding: 20px 50px;
+}
+#cursos {
+    padding-top: 50px;
+    margin-top: 25px;
+    height: 600px;
+    background: url('../Images/background03.png') no-repeat center center;
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover;
+}
+.flat .plan {
+	border-radius: 0px;
+	list-style: none;
+	padding: 0 0 20px;
+	margin: 0 0 15px;
+	background: #FFF;
+	box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.3) !important;
+}
+.flat .plan li {
+	font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+	color: #8B8B8B;
+    padding: 10px 15px;
+	border-top: 1px solid #F5F5F5;
+	-webkit-transition: 300ms;
+	transition: 300ms;
+}
+.flat .plan li.plan-price {
+	border-top: 0;
+}
+.flat .plan li.plan-name {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    line-height: 30px;
+	color: #FFF;
+	background: #4E4E4E;
+    padding: 12px;
+	margin-bottom: 15px;
+    border-radius: 0;
+    border-top: 0;
+}
+.flat .plan li > strong {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+	color: #4B4B4B;
+}
+.flat .plan li.plan-action {
+	margin-top: 10px;
+	border-top: 0;
+}
+.flat .plan.featured:hover li.plan-name, .flat .plan:hover li.plan-name, .flat .plan.featured.plan-name {
+	background: #3E3E3E!important;
+}
+.alerta {
+    color: indianred!important;
+    font-weight: 400 !important;
+}
+.btn {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+/* ==========================================================================
+GALERIA
+========================================================================== */
+#galeria {
+    margin-top: 75px;
+}
+#galeria h4 {
+    margin-top: 1em;
+}
+#owl-gallery {
+    margin-top: 1em;
+}
+#owl-gallery .item{
+    margin: 3px;
+}
+#owl-gallery .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+/* ==========================================================================
+TESTIMONIOS
+========================================================================== */
+#testimonios {
+    background: 
+        linear-gradient(
+            rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)
+        ),
+        url('../Images/background04.jpg') 50% 0 fixed;
+    
+    height: auto;  
+    margin: 0 auto; 
+    width: 100%; 
+    position: relative;
+    margin-top: 75px;
+    padding: 50px 0;
+}
+/* ==========================================================================
+INSTRUCTORES
+========================================================================== */
+#instructores {
+    padding-top: 25px;
+}
+#instructores h4 {
+    margin-top: 1em;
+}
+#owl-people .item{
+    margin: 3em;
+}
+#owl-people .item img{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+/* ==========================================================================
+CONTACTO
+========================================================================== */
+#contacto {
+    margin-top: 25px;
+    padding-top: 25px;
+    background-color: rgba(250,250,250,1);
+}
+#map-canvas {
+    height:350px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#contacto p {
+    font-size: 16px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+#form {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+#mail-opt-2 {
+    visibility: hidden;
+}
+/* ==========================================================================
+FOOTER
+========================================================================== */
+#footer {
+    padding-left: 5em;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 75px;
+    height: 75px;
+    color: #FFF;
+    background-color: rgba(0,0,0,0.8);
+}
